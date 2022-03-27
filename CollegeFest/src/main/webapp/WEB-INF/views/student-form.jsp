@@ -16,12 +16,13 @@
 <nav>
     <div class="logo"><a href="/CollegeFest/students/list"><i class="fa-solid fa-landmark"></i> College Fest</a></div>
     <input type="checkbox" id="click">
-    <!-- 	<label for="click" class="menu-btn"> -->
-    <!-- 		<i class="fa-solid fa-bars"></i> -->
-    <!-- 	</label> -->
-    <!-- 	<ul> -->
-    <!-- 		<li><a href="/CustomerRelationshipManagement/customers/list"><i class="fa-solid fa-house"></i> Home</a></li> -->
-    <!-- 	</ul> -->
+    <label for="click" class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    <ul>
+<%--        <li><a href="/CollegeFest/students/showFormForAdd"><i class="fa-solid fa-user-plus"></i> Add Student</a></li>--%>
+        <li><a href="/CollegeFest/logout"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+    </ul>
 </nav>
 
 <div class="container">

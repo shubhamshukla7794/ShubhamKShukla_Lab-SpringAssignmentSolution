@@ -81,25 +81,6 @@ public class StudentController {
         return "redirect:/students/list";
     }
 
-    @RequestMapping("/search")
-    public String search(@RequestParam("name") String name,
-                         @RequestParam("department") String department,
-                         @RequestParam("country") String country,
-                         Model model) {
-
-        if (name.trim().isEmpty() && department.trim().isEmpty()
-                && country.trim().isEmpty()) {
-            return "redirect:/students/list";
-        }else {
-
-            List<Student> students = studentService.searchBy(name, department, country);
-
-            model.addAttribute("Students", students);
-
-            return "list-students";
-        }
-    }
-
     @RequestMapping("/403")
     public ModelAndView accessDenied(Principal user) {
         ModelAndView model = new ModelAndView();

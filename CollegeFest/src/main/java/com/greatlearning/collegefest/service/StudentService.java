@@ -14,6 +14,4 @@ public interface StudentService {
 
     public void deleteById(int id);
 
-    public List<Student> searchBy(String name, String department, String country);
-
 }

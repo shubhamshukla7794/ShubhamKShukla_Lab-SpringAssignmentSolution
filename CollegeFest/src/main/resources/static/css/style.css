@@ -11,10 +11,6 @@
     margin: 3em 6em;
 }
 
-/* .inner-conatiner { */
-
-/* } */
-
 nav {
     background: #242424;
     height: 6em;
@@ -46,14 +42,16 @@ nav ul li a {
     font-size: 1.1em;
     font-weight: 500;
     letter-spacing: 0.03em;
-    background-color: #266CCF;
+    /*background-color: #266CCF;*/
     padding: 0.3em 1.5em;
     border-radius: 1.2em;
+    margin-left: 1.5em;
 }
 
 nav ul li a:hover {
     color: #F5F5F5;
-    background-color: #205AAC;
+    /*background-color: #205AAC;*/
+    background-color: #266CCF;
 }
 
 nav .menu-btn i {
@@ -264,6 +262,20 @@ label,
 .back-button a i {
     margin-right: 1em;
     vertical-align: middle;
+}
+
+.err-heading {
+    font-size: 5em;
+    text-align: center;
+}
+
+.err-sub-heading {
+    font-size: 3em;
+    text-align: center;
+}
+
+.err-msg {
+    text-align: center;
 }
 
 @media (max-width: 940px) {

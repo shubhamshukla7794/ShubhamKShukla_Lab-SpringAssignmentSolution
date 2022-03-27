@@ -22,7 +22,7 @@
     </label>
     <ul>
         <li><a href="/CollegeFest/students/showFormForAdd"><i class="fa-solid fa-user-plus"></i> Add Student</a></li>
-<%--        <li><a href="#"> Logout</a></li>--%>
+        <li><a href="/CollegeFest/logout"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
     </ul>
 </nav>
 

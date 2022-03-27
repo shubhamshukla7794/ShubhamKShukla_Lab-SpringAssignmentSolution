@@ -33,10 +33,4 @@ public class StudentServiceImpl implements StudentService {
     public void deleteById(int id) {
         studentRepository.deleteById(id);
     }
-
-    @Override
-    public List<Student> searchBy(String name, String department, String country) {
-        List<Student> students = studentRepository.findByNameContainsAndDepartmentContainsAndCountryContainsAllIgnoreCase(name, department, country);
-        return students;
-    }
 }
