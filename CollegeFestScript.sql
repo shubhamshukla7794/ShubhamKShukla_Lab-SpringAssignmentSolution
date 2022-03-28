@@ -1,3 +1,8 @@
+-- SQL query to create collegefest database 
+CREATE database IF NOT EXISTS `collegefest`;
+USE `collegefest`;
+
+-- SQL query to populate the tables created by Spring 
 INSERT INTO `collegefest`.`roles` (`role_id`,`name`) VALUES (1,'ADMIN');
 INSERT INTO `collegefest`.`roles` (`role_id`,`name`) VALUES (2,'USER');
 
